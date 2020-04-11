@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/empty_template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/initialSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/empty_template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/empty_template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/initialSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/initial_setup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586540591030</updated>
-      <workItem from="1586540597119" duration="4864000" />
+      <workItem from="1586540597119" duration="5139000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586541169695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added initialSetup and empty_template into project structure">
+      <created>1586624507042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586624507043</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,7 +115,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add initial files for selenium2 project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add initial files for selenium2 project" />
+    <MESSAGE value="added initialSetup and empty_template into project structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="added initialSetup and empty_template into project structure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="100" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586623897798">
@@ -121,29 +127,29 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1586622597317" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586541169078">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586624506426">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586541169078" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586624432011">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586624506426" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586624522892">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586624432011" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586624432011">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586624522892" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586624522892">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586624432011" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586624432011">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586624522892" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586624522891">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586624432011" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586624432011">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586624522891" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586624522892">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586624432011" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586541171187">
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586624522892" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586624511335">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586541171187" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586624511335" />
   </component>
 </project>

@@ -3,7 +3,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class initialSetup {
+public class initial_setup {
     public WebDriver driver;
     private final String BASE_URL = "http://localhost/";
     public String getBASE_URL() {
