@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/empty_template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/empty_template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/initialSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/initial_setup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/wait_for_text_attribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +48,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.empty_template">
+  <component name="RunManager" selected="JUnit.wait_for_text_and_attribute.wait_for_attribute">
     <configuration name="empty_template" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,8 +75,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="wait_for_text_and_attribute.wait_for_attribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="wait_for_text_and_attribute" />
+      <option name="METHOD_NAME" value="wait_for_attribute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wait_for_text_and_attribute.wait_for_text" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="wait_for_text_and_attribute" />
+      <option name="METHOD_NAME" value="wait_for_text" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.wait_for_text_and_attribute.wait_for_attribute" />
+        <item itemvalue="JUnit.wait_for_text_and_attribute.wait_for_text" />
         <item itemvalue="JUnit.empty_template" />
         <item itemvalue="JUnit.empty_template.name_of_the_test" />
       </list>
@@ -89,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586540591030</updated>
-      <workItem from="1586540597119" duration="5139000" />
+      <workItem from="1586540597119" duration="9942000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -105,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586624507043</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="minor cosmetic changes">
+      <created>1586624712695</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586624712695</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +148,8 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="add initial files for selenium2 project" />
     <MESSAGE value="added initialSetup and empty_template into project structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="added initialSetup and empty_template into project structure" />
+    <MESSAGE value="minor cosmetic changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor cosmetic changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="100" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586623897798">
@@ -127,29 +160,29 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1586622597317" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586624506426">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586624711999">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586624506426" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586624522892">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586624711999" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586629500181">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586624522892" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586624522892">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586629500181" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586629500180">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586624522892" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586624522891">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586629500180" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586629500180">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586624522891" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586624522892">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586629500180" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586629500181">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586624522892" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586624511335">
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586629500181" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586624713992">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586624511335" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586624713992" />
   </component>
 </project>
