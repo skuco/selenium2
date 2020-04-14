@@ -3,11 +3,9 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-
-import java.sql.SQLOutput;
 import java.util.List;
 
-public class javaScriptExecutorTest extends initial_setup {
+public class js_executor_highlight extends initial_setup {
 
     @Before
     public void openBaseUrl(){
@@ -15,7 +13,7 @@ public class javaScriptExecutorTest extends initial_setup {
     }
 
     @Test
-    public void jsScriptExecutorTest(){
+    public void jsExecutorHighLight(){
         List<WebElement> rows = driver.findElements(By.xpath("//table//tbody//tr"));
 
         for (WebElement row : rows) {

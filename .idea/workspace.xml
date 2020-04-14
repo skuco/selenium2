@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/javaScriptExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/js_executor_blur_click.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/scrollTo_test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/initial_setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/initial_setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/javaScriptExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/js_executor_highlight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,41 +50,42 @@
       <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.javaScriptExecutorTest.jsScriptExecutorTest">
-    <configuration name="javaScriptExecutorTest.jsScriptExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.scrollTo_test.scrollTo">
+    <configuration name="js_executor_blur_click.jsExecutorBlur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="javaScriptExecutorTest" />
+      <option name="MAIN_CLASS_NAME" value="js_executor_blur_click" />
+      <option name="METHOD_NAME" value="jsExecutorBlur" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="js_executor_blur_click.jsExecutorClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="js_executor_blur_click" />
+      <option name="METHOD_NAME" value="jsExecutorClick" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="js_executor_highlight.jsScriptExecutorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="js_executor_highlight" />
       <option name="METHOD_NAME" value="jsScriptExecutorTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wait_for_number_of_elements.waitForMinions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="scrollTo_test.scrollTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="wait_for_number_of_elements" />
-      <option name="METHOD_NAME" value="waitForMinions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wait_for_text_and_attribute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="wait_for_text_and_attribute" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="wait_fro_invisibility.waitForInvisibleElements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="wait_fro_invisibility" />
-      <option name="METHOD_NAME" value="waitForInvisibleElements" />
+      <option name="MAIN_CLASS_NAME" value="scrollTo_test" />
+      <option name="METHOD_NAME" value="scrollTo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.javaScriptExecutorTest.jsScriptExecutorTest" />
+        <item itemvalue="JUnit.scrollTo_test.scrollTo" />
+        <item itemvalue="JUnit.js_executor_blur_click.jsExecutorClick" />
+        <item itemvalue="JUnit.js_executor_blur_click.jsExecutorBlur" />
+        <item itemvalue="JUnit.js_executor_highlight.jsScriptExecutorTest" />
         <item itemvalue="JUnit.wait_tests" />
-        <item itemvalue="JUnit.wait_fro_invisibility.waitForInvisibleElements" />
-        <item itemvalue="JUnit.wait_for_number_of_elements.waitForMinions" />
-        <item itemvalue="JUnit.wait_for_text_and_attribute" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +123,7 @@
       <workItem from="1586540597119" duration="11413000" />
       <workItem from="1586707695887" duration="5514000" />
       <workItem from="1586854801791" duration="77000" />
-      <workItem from="1586855019704" duration="7952000" />
+      <workItem from="1586855019704" duration="13343000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -165,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586863180943</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="javaScriptExecutorTest, extract method, change css arguments via JS">
+      <created>1586879461484</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586879461484</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +189,8 @@
     <MESSAGE value="added two tests" />
     <MESSAGE value="added wait_for_number_of_elements test" />
     <MESSAGE value="merged all wait tests into one bigger test class" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged all wait tests into one bigger test class" />
+    <MESSAGE value="javaScriptExecutorTest, extract method, change css arguments via JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="javaScriptExecutorTest, extract method, change css arguments via JS" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="208" key="#Notifications" timestamp="1586855037712">
@@ -195,30 +205,30 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1586622597317" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586863180178">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586879460759">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586863180178" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586879318179">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586879460759" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586884918624">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586879318179" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586879318179">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586884918624" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586884918623">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586879318179" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586879318179">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586884918623" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586884918623">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586879318179" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586879318179">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586884918623" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586884918623">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586879318179" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586863182448">
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586884918623" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586879462937">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586863182448" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586879462937" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586862373628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
