@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-public class scrollTo_test extends initial_setup {
+public class js_executor_scrollIntoView extends initial_setup {
 
 
 
