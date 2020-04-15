@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/js_executor_scrollByOffset.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/switchAndHandles.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scrollTo_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/js_executor_scrollIntoView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/initial_setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/initial_setup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +49,12 @@
       <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.js_executor_scrollByOffset">
-    <configuration name="js_executor_blur_click.jsExecutorClick" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.switchAndHandles.popupWindow">
+    <configuration name="huhu.name_of_the_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="js_executor_blur_click" />
-      <option name="METHOD_NAME" value="jsExecutorClick" />
+      <option name="MAIN_CLASS_NAME" value="huhu" />
+      <option name="METHOD_NAME" value="name_of_the_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +89,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="js_executor_scrollIntoView.scrollTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="switchAndHandles.popupWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="js_executor_scrollIntoView" />
-      <option name="METHOD_NAME" value="scrollTo" />
+      <option name="MAIN_CLASS_NAME" value="switchAndHandles" />
+      <option name="METHOD_NAME" value="popupWindow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.switchAndHandles.popupWindow" />
+        <item itemvalue="JUnit.huhu.name_of_the_test" />
         <item itemvalue="JUnit.js_executor_scrollByOffset" />
         <item itemvalue="JUnit.js_executor_scrollByOffset.scrollToPageEnd" />
         <item itemvalue="JUnit.js_executor_scrollByOffset.scrollByOffset" />
-        <item itemvalue="JUnit.js_executor_scrollIntoView.scrollTo" />
-        <item itemvalue="JUnit.js_executor_blur_click.jsExecutorClick" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +122,7 @@
       <workItem from="1586540597119" duration="11413000" />
       <workItem from="1586707695887" duration="5514000" />
       <workItem from="1586854801791" duration="77000" />
-      <workItem from="1586855019704" duration="17480000" />
+      <workItem from="1586855019704" duration="22124000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -180,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586885603271</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added scroll by offset and body.height function">
+      <created>1586960533153</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586960533153</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +204,8 @@
     <MESSAGE value="merged all wait tests into one bigger test class" />
     <MESSAGE value="javaScriptExecutorTest, extract method, change css arguments via JS" />
     <MESSAGE value="added scrollTo test - using js scrollIntoView() function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added scrollTo test - using js scrollIntoView() function" />
+    <MESSAGE value="added scroll by offset and body.height function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scroll by offset and body.height function" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="208" key="#Notifications" timestamp="1586855037712">
@@ -212,30 +220,50 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1586622597317" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586885602642">
+    <state x="695" y="65" key="#xdebugger.evaluate" timestamp="1586963494637">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586885602642" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586959551041">
+    <state x="695" y="65" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1586963494637" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586960532518">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586959551041" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586959551040">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586960532518" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586964525630">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586959551040" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586959551040">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586964525630" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586964525629">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586959551040" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586959551041">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586964525629" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586964525629">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586959551041" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586885604916">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586964525629" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586964525629">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586885604916" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586964525629" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1586963938802">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1586963938802">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1586963938802">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1586963938802">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586960534755">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586960534755" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586862373628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

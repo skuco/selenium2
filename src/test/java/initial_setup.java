@@ -19,7 +19,7 @@ public class initial_setup {
 
     @After
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 
 }
