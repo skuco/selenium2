@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/excel_reader_test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tools/excel_reader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/data/data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/empty_template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/empty_template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/initial_setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/initial_setup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/js_executor_blur_click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/js_executor_blur_click.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/js_executor_highlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/js_executor_highlight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/js_executor_scrollByOffset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/js_executor_scrollByOffset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/js_executor_scrollIntoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/js_executor_scrollIntoView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/switchAndHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/window_switch_and_handles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/wait_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/wait_tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/excel_reader_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/data_driven_test_excel_reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tools/excel_reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/excel_reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/data.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +23,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aMLc32UBf5U4BAjGrazjISCvsy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -61,10 +55,32 @@
       <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.data_driven_test.iterateInExcelFile">
-    <configuration name="dataDrivenTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dataDrivenTesting" />
+  <component name="RunManager" selected="JUnit.data_driven_test_excel_reader.primeNumber">
+    <configuration name="excel_reader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tools.excel_reader" />
       <module name="selenium2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tools.excel_reader" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data_driven_test_excel_reader.primeNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.data_driven_test_excel_reader" />
+      <option name="METHOD_NAME" value="primeNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,23 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="window_switch_and_handles.popupWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.window_switch_and_handles" />
-      <option name="METHOD_NAME" value="popupWindow" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.data_driven_test_excel_reader.primeNumber" />
+        <item itemvalue="Application.excel_reader" />
         <item itemvalue="JUnit.data_driven_test.iterateInExcelFile" />
         <item itemvalue="JUnit.data_driven_test.readExcelFile" />
         <item itemvalue="JUnit.data_driven_test.name_of_the_test" />
-        <item itemvalue="Application.dataDrivenTesting" />
-        <item itemvalue="JUnit.window_switch_and_handles.popupWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +138,7 @@
       <workItem from="1586540597119" duration="11413000" />
       <workItem from="1586707695887" duration="5514000" />
       <workItem from="1586854801791" duration="77000" />
-      <workItem from="1586855019704" duration="30370000" />
+      <workItem from="1586855019704" duration="34885000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -204,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586965083962</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added excel reader (DDT) tools, moved classes into the packages">
+      <created>1587052423178</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587052423178</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +226,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add initial files for selenium2 project" />
     <MESSAGE value="added initialSetup and empty_template into project structure" />
     <MESSAGE value="minor cosmetic changes" />
@@ -223,7 +237,8 @@
     <MESSAGE value="added scrollTo test - using js scrollIntoView() function" />
     <MESSAGE value="added scroll by offset and body.height function" />
     <MESSAGE value="switchTo() and getWindowHandles() tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="switchTo() and getWindowHandles() tests" />
+    <MESSAGE value="added excel reader (DDT) tools, moved classes into the packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added excel reader (DDT) tools, moved classes into the packages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="208" key="#Notifications" timestamp="1586855037712">
@@ -234,34 +249,38 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="100" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1587052107402" />
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1586622597317">
+    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1587054281087">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1586622597317" />
+    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1587054281087" />
+    <state x="246" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1587054098187">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="246" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1587054098187" />
     <state x="695" y="65" key="#xdebugger.evaluate" timestamp="1586963494637">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="695" y="65" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1586963494637" />
-    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1586965083174">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587052421855">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586965083174" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587051889317">
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587052421855" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587055878386">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587051889317" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1587051889317">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587055878386" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1587055878386">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587051889317" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1587051889317">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587055878386" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1587055878385">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587051889317" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1587051889317">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587055878385" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1587055878386">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587051889317" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587055878386" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1586963938802">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -282,10 +301,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1586968236567" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586965086590">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587052424736">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586965086590" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587052424736" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586862373628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
