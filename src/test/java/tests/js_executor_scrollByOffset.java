@@ -1,6 +1,9 @@
+package tests;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.JavascriptExecutor;
+import tools.initial_setup;
 
 public class js_executor_scrollByOffset extends initial_setup {
     JavascriptExecutor js;

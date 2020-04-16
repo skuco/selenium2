@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/switchAndHandles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/excel_reader_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tools/excel_reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/data/data.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/initial_setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/initial_setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/empty_template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/empty_template.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/initial_setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/initial_setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/js_executor_blur_click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/js_executor_blur_click.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/js_executor_highlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/js_executor_highlight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/js_executor_scrollByOffset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/js_executor_scrollByOffset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/js_executor_scrollIntoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/js_executor_scrollIntoView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/switchAndHandles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/window_switch_and_handles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/wait_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/wait_tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,66 +43,66 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/data" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test\resources\data" />
       <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.switchAndHandles.popupWindow">
-    <configuration name="huhu.name_of_the_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.data_driven_test.iterateInExcelFile">
+    <configuration name="dataDrivenTesting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataDrivenTesting" />
       <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="huhu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data_driven_test.iterateInExcelFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.data_driven_test" />
+      <option name="METHOD_NAME" value="iterateInExcelFile" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="data_driven_test.name_of_the_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.data_driven_test" />
       <option name="METHOD_NAME" value="name_of_the_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="js_executor_scrollByOffset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="data_driven_test.readExcelFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="js_executor_scrollByOffset" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="js_executor_scrollByOffset.scrollByOffset" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="js_executor_scrollByOffset" />
-      <option name="METHOD_NAME" value="scrollByOffset" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.data_driven_test" />
+      <option name="METHOD_NAME" value="readExcelFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="js_executor_scrollByOffset.scrollToPageEnd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="window_switch_and_handles.popupWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="js_executor_scrollByOffset" />
-      <option name="METHOD_NAME" value="scrollToPageEnd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="switchAndHandles.popupWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="switchAndHandles" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.window_switch_and_handles" />
       <option name="METHOD_NAME" value="popupWindow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -101,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.switchAndHandles.popupWindow" />
-        <item itemvalue="JUnit.huhu.name_of_the_test" />
-        <item itemvalue="JUnit.js_executor_scrollByOffset" />
-        <item itemvalue="JUnit.js_executor_scrollByOffset.scrollToPageEnd" />
-        <item itemvalue="JUnit.js_executor_scrollByOffset.scrollByOffset" />
+        <item itemvalue="JUnit.data_driven_test.iterateInExcelFile" />
+        <item itemvalue="JUnit.data_driven_test.readExcelFile" />
+        <item itemvalue="JUnit.data_driven_test.name_of_the_test" />
+        <item itemvalue="Application.dataDrivenTesting" />
+        <item itemvalue="JUnit.window_switch_and_handles.popupWindow" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +132,7 @@
       <workItem from="1586540597119" duration="11413000" />
       <workItem from="1586707695887" duration="5514000" />
       <workItem from="1586854801791" duration="77000" />
-      <workItem from="1586855019704" duration="22124000" />
+      <workItem from="1586855019704" duration="30370000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -187,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586960533153</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="switchTo() and getWindowHandles() tests">
+      <created>1586965083962</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586965083962</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,17 +222,18 @@
     <MESSAGE value="javaScriptExecutorTest, extract method, change css arguments via JS" />
     <MESSAGE value="added scrollTo test - using js scrollIntoView() function" />
     <MESSAGE value="added scroll by offset and body.height function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added scroll by offset and body.height function" />
+    <MESSAGE value="switchTo() and getWindowHandles() tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="switchTo() and getWindowHandles() tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="208" key="#Notifications" timestamp="1586855037712">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="526" y="208" key="#Notifications/0.0.1280.689@0.0.1280.689" timestamp="1586855037712" />
-    <state x="371" y="100" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1586862483185">
+    <state x="371" y="100" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1587052107402">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="371" y="100" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1586862483185" />
+    <state x="371" y="100" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1280.689@0.0.1280.689" timestamp="1587052107402" />
     <state x="446" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1586622597317">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -224,26 +242,26 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="695" y="65" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1586963494637" />
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1586960532518">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1586965083174">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586960532518" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1586964525630">
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1586965083174" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587051889317">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586964525630" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1586964525629">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587051889317" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1587051889317">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1586964525629" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1586964525629">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587051889317" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1587051889317">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1586964525629" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1586964525629">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587051889317" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1587051889317">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1586964525629" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587051889317" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1586963938802">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -260,10 +278,14 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586960534755">
+    <state x="142" y="0" key="SettingsEditor" timestamp="1586968236567">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586960534755" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1586968236567" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1586965086590">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1586965086590" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586862373628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>

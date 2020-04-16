@@ -1,3 +1,5 @@
+package tools;
+
 import org.junit.After;
 import org.junit.Before;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +16,7 @@ public class initial_setup {
     public void setUp(){
         System.setProperty("webdriver.gecko.driver","src/test/resources/drivers/geckodriver.exe");
         driver = new FirefoxDriver();
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
     }
 
     @After

@@ -1,8 +1,12 @@
+package tests;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import tools.initial_setup;
+
 import java.util.List;
 
 public class js_executor_highlight extends initial_setup {
