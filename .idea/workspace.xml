@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/excel_reader_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/data_driven_test_excel_reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tools/excel_reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/excel_reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/data_driven_test_excel_reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/data_driven_test_excel_reader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -44,7 +43,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -138,7 +137,10 @@
       <workItem from="1586540597119" duration="11413000" />
       <workItem from="1586707695887" duration="5514000" />
       <workItem from="1586854801791" duration="77000" />
-      <workItem from="1586855019704" duration="34885000" />
+      <workItem from="1586855019704" duration="35008000" />
+      <workItem from="1587122094882" duration="493000" />
+      <workItem from="1587122611834" duration="2474000" />
+      <workItem from="1587126729945" duration="1444000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -217,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587052423178</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added DDT tests, constructor and stuff">
+      <created>1587056943125</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587056943125</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +247,8 @@
     <MESSAGE value="added scroll by offset and body.height function" />
     <MESSAGE value="switchTo() and getWindowHandles() tests" />
     <MESSAGE value="added excel reader (DDT) tools, moved classes into the packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="added excel reader (DDT) tools, moved classes into the packages" />
+    <MESSAGE value="added DDT tests, constructor and stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="added DDT tests, constructor and stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="208" key="#Notifications" timestamp="1586855037712">
@@ -261,61 +271,61 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="695" y="65" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1586963494637" />
-    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587052421855">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587056942405">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587052421855" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587055878386">
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587056942405" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587129291449">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587055878386" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1587055878386">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587129291449" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1587129291448">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587055878386" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1587055878385">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587129291448" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1587129291448">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587055878385" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1587055878386">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587129291448" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1587129291448">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587055878386" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1586963938802">
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587129291448" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1587116254652">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1586963938802">
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587116254652" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1587116254652">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1586963938802">
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1587116254652" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1587116254651">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1586963938802">
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1587116254651" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1587116254652">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1586963938802" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1586968236567">
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1587116254652" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587122587215">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1586968236567" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587052424736">
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1587122587215" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587056944467">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587052424736" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587056944467" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586862373628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1586862373628" />
-    <state x="371" y="96" key="extract.method.dialog" timestamp="1586879310421">
+    <state x="371" y="96" key="extract.method.dialog" timestamp="1587129138193">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="371" y="96" key="extract.method.dialog/0.0.1280.689@0.0.1280.689" timestamp="1586879310421" />
-    <state x="297" y="153" key="run.anything.popup" timestamp="1586957930116">
+    <state x="371" y="96" key="extract.method.dialog/0.0.1280.689@0.0.1280.689" timestamp="1587129138193" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1587123698874">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1586957930116" />
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1587123698874" />
   </component>
 </project>

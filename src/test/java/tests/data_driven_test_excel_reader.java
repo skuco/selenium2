@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import tools.excel_reader;
 import tools.initial_setup;
 
@@ -27,13 +29,33 @@ public class data_driven_test_excel_reader extends initial_setup {
 
         excel_reader primeExcelReader = new excel_reader(TEST_DATA_PATH);
         Sheet sheet = primeExcelReader.getSheetByName(SHEET);
+
         for (Row cells : sheet) {
             if (cells.getRowNum() == 0){
                 continue;
             }
-            System.out.println(cells.getCell(0).getNumericCellValue());
+            String number = String.valueOf((int) cells.getCell(0).getNumericCellValue());
+            boolean expectedPrime = cells.getCell(1).getBooleanCellValue();
 
+            inputField.clear();
+            inputField.sendKeys(number);
+            buttonPrime.click();
+
+            checkResult(expectedPrime);
         }
     }
 
+    private void checkResult(boolean expectedPrime) {
+        if (expectedPrime) {
+            new WebDriverWait(driver, 10)
+                    .until(ExpectedConditions
+                            .visibilityOfElementLocated(By
+                                    .xpath("//div[text()='Optimus approves']")));
+        }else{
+            new WebDriverWait(driver, 10)
+                    .until(ExpectedConditions
+                            .visibilityOfElementLocated(By
+                                    .xpath("//div[text()='Optimus is sad']")));
+        }
+    }
 }
