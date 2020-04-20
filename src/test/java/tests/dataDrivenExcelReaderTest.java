@@ -8,12 +8,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import tools.excel_reader;
-import tools.initial_setup;
+import tools.excelReader;
+import tools.initialSetup;
 
 import java.io.IOException;
 
-public class data_driven_test_excel_reader extends initial_setup {
+public class dataDrivenExcelReaderTest extends initialSetup {
     private static final String TEST_DATA_PATH = "src/test/resources/data/data.xlsx";
     private static final String SHEET = "prime";
 
@@ -27,7 +27,7 @@ public class data_driven_test_excel_reader extends initial_setup {
         WebElement inputField = driver.findElement(By.xpath("//div//input[@type='number']"));
         WebElement buttonPrime = driver.findElement(By.xpath("//div//button[contains(@class, btn-default)]"));
 
-        excel_reader primeExcelReader = new excel_reader(TEST_DATA_PATH);
+        excelReader primeExcelReader = new excelReader(TEST_DATA_PATH);
         Sheet sheet = primeExcelReader.getSheetByName(SHEET);
 
         for (Row cells : sheet) {

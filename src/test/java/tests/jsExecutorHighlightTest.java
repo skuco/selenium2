@@ -5,11 +5,11 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import tools.initial_setup;
+import tools.initialSetup;
 
 import java.util.List;
 
-public class js_executor_highlight extends initial_setup {
+public class jsExecutorHighlightTest extends initialSetup {
 
     @Before
     public void openBaseUrl(){

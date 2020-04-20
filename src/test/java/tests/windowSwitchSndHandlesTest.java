@@ -7,9 +7,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import tools.initial_setup;
+import tools.initialSetup;
 
-public class window_switch_and_handles extends initial_setup {
+public class windowSwitchSndHandlesTest extends initialSetup {
 
     @Before
     public void openBaseUrl(){

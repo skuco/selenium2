@@ -3,7 +3,7 @@ package tools;
 import org.junit.Before;
 import org.junit.Test;
 
-public class empty_template extends initial_setup {
+public class emptyTemplate extends initialSetup {
 
     @Before
     public void openBaseUrl(){
