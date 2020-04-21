@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/skipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/staticVsInstanceVariableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/data_driven_test_excel_reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/dataDrivenExcelReaderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/js_executor_blur_click.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/jsExecutorBlurClickTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/js_executor_highlight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/jsExecutorHighlightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/js_executor_scrollByOffset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/jsExecutorScrollByOffsetTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/js_executor_scrollIntoView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/jsExecutorScrollIntoViewTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/wait_tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/waitTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/window_switch_and_handles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/windowSwitchSndHandlesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tools/empty_template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/emptyTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tools/excel_reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/excelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tools/initial_setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/initialSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +70,7 @@
       <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.staticVsInstanceVariableTest">
     <configuration name="excelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tools.excelReader" />
       <module name="selenium2" />
@@ -105,16 +95,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.dataDrivenExcelReaderTest" />
       <option name="METHOD_NAME" value="primeNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="data_driven_test.iterateInExcelFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium2" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.data_driven_test" />
-      <option name="METHOD_NAME" value="iterateInExcelFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,13 +131,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="staticVsInstanceVariableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.staticVsInstanceVariableTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.staticVsInstanceVariableTest" />
         <item itemvalue="JUnit.skipTest" />
         <item itemvalue="JUnit.skipTest.first_test" />
         <item itemvalue="JUnit.dataDrivenExcelReaderTest.primeNumber" />
         <item itemvalue="Application.excelReader" />
-        <item itemvalue="JUnit.data_driven_test.iterateInExcelFile" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +177,7 @@
       <workItem from="1587408077145" duration="144000" />
       <workItem from="1587408287715" duration="988000" />
       <workItem from="1587409617351" duration="437000" />
+      <workItem from="1587483863847" duration="3438000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -332,22 +328,22 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1587409459382" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1587408054407">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1587487405727">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587408054407" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1587408054407">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587487405727" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1587487405727">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587408054407" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1587408054407">
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587487405727" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1587487405727">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587408054407" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1587408054407">
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587487405727" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1587487405727">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587408054407" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587487405727" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1587116254652">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -380,9 +376,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="371" y="96" key="extract.method.dialog/0.0.1280.689@0.0.1280.689" timestamp="1587129138193" />
-    <state x="297" y="153" key="run.anything.popup" timestamp="1587123698874">
+    <state x="297" y="153" key="run.anything.popup" timestamp="1587487653851">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1587123698874" />
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1587487653851" />
   </component>
 </project>
