@@ -1,7 +1,9 @@
 package tests;
 
+import categories.RegressionTest;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.experimental.categories.Category;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -16,6 +18,7 @@ public class jsExecutorHighlightTest extends initialSetup {
         driver.get(getBASE_URL() + "tabulka.php");
     }
 
+    @Category(RegressionTest.class)
     @Test
     public void jsExecutorHighLight(){
         List<WebElement> rows = driver.findElements(By.xpath("//table//tbody//tr"));

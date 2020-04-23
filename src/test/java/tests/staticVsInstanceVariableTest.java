@@ -1,6 +1,8 @@
 package tests;
 
+import categories.SmokeTest;
 import org.junit.*;
+import org.junit.experimental.categories.Category;
 
 public class staticVsInstanceVariableTest {
     static int staticNumber;
@@ -18,6 +20,7 @@ public class staticVsInstanceVariableTest {
         System.out.println("Test SetUp");
     }
 
+    @Category(SmokeTest.class)
     @Test
     public void testA(){
         System.out.println("Test A");
