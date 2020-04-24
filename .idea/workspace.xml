@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/parallelTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ruleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/EnterSin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/models/Sin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/HramSa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SinCityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SinCityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tools/InitialSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/InitialSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,23 @@
       <recent name="categories" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.HramSa.playGround">
+    <configuration name="HramSa.playGround" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HramSa" />
+      <option name="METHOD_NAME" value="playGround" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParallelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <extension name="coverage">
@@ -86,21 +104,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ParallelTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ParameterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,28 +139,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmokeTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SinCityTest.testNewSin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="suites.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="suites" />
-      <option name="MAIN_CLASS_NAME" value="suites.SmokeTestSuite" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.SinCityTest" />
+      <option name="METHOD_NAME" value="testNewSin" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HramSa.playGround" />
+        <item itemvalue="JUnit.SinCityTest.testNewSin" />
         <item itemvalue="JUnit.RuleTest" />
         <item itemvalue="JUnit.ParallelTest" />
         <item itemvalue="JUnit.RegressionTestSuite" />
-        <item itemvalue="JUnit.SmokeTestSuite" />
-        <item itemvalue="JUnit.ParameterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +190,7 @@
       <workItem from="1587555703575" duration="1219000" />
       <workItem from="1587580094007" duration="3443000" />
       <workItem from="1587636023262" duration="4304000" />
-      <workItem from="1587713781295" duration="6919000" />
+      <workItem from="1587713781295" duration="13918000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -300,7 +304,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587666813947</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added tests for @Rule and @Concurrent run">
+      <created>1587742162697</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587742162697</updated>
+    </task>
+    <task id="LOCAL-00018" summary="changed names of the classes according to standard naming convention">
+      <created>1587742432622</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1587742432622</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +344,9 @@
     <MESSAGE value="added test for understanding static variables and classes" />
     <MESSAGE value="added parametrized tests" />
     <MESSAGE value="created suites and categories" />
-    <option name="LAST_COMMIT_MESSAGE" value="created suites and categories" />
+    <MESSAGE value="added tests for @Rule and @Concurrent run" />
+    <MESSAGE value="changed names of the classes according to standard naming convention" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed names of the classes according to standard naming convention" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="208" key="#Notifications" timestamp="1586855037712">
@@ -341,10 +361,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1587408399221" />
-    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1587634747210">
+    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1587749388946">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1587634747210" />
+    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1587749388946" />
     <state x="371" y="121" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587642390099">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -353,66 +373,70 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="246" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.689@0.0.1280.689" timestamp="1587054098187" />
-    <state x="695" y="65" key="#xdebugger.evaluate" timestamp="1586963494637">
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587748432198">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="695" y="65" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1586963494637" />
-    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587666813217">
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.689@0.0.1280.689" timestamp="1587748432198" />
+    <state x="602" y="91" key="#xdebugger.evaluate" timestamp="1587748167245">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587666813217" />
+    <state x="602" y="91" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1587748167245" />
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587742431805">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587742431805" />
     <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1587409459382">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1587409459382" />
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1587738027575">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1587749169824">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587738027575" />
-    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1587738027575">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587749169824" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1587749169824">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587738027575" />
-    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1587738027575">
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587749169824" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1587749169824">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587738027575" />
-    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1587738027575">
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587749169824" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1587749169824">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587738027575" />
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1587116254652">
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587749169824" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1587748184787">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587116254652" />
-    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1587116254652">
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587748184787" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1587748184787">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1587116254652" />
-    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1587116254651">
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1587748184787" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1587748184787">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1587116254651" />
-    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1587116254652">
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1587748184787" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1587748184787">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1587116254652" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1587748184787" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1587409676923">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1587409676923" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587666817213">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587742434661">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587666817213" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587742434661" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586862373628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.689@0.0.1280.689" timestamp="1586862373628" />
-    <state x="371" y="96" key="extract.method.dialog" timestamp="1587129138193">
+    <state x="371" y="96" key="extract.method.dialog" timestamp="1587748704452">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="371" y="96" key="extract.method.dialog/0.0.1280.689@0.0.1280.689" timestamp="1587129138193" />
+    <state x="371" y="96" key="extract.method.dialog/0.0.1280.689@0.0.1280.689" timestamp="1587748704452" />
     <state x="297" y="153" key="run.anything.popup" timestamp="1587487653851">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
