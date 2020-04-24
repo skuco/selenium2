@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/categories/RegressionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/categories/SmokeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/RegressionTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/suites/SmokeTestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/parallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ruleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/jsExecutorHighlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/jsExecutorHighlightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/staticVsInstanceVariableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/staticVsInstanceVariableTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/waitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/waitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,19 +63,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="categories" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test\resources\data" />
+      <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test\resources\data" />
-      <recent name="C:\Users\micha\IdeaProjects\selenium2\src\test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="categories" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RegressionTestSuite">
+  <component name="RunManager" selected="JUnit.ruleTest">
     <configuration name="RegressionTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <extension name="coverage">
@@ -110,6 +106,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="parallelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.parallelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="parameterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <extension name="coverage">
@@ -125,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="parameterTest.testOptimusUsingParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ruleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="selenium2" />
       <extension name="coverage">
         <pattern>
@@ -134,23 +145,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.parameterTest" />
-      <option name="METHOD_NAME" value="testOptimusUsingParameters" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="staticVsInstanceVariableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="selenium2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.staticVsInstanceVariableTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.ruleTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ruleTest" />
+        <item itemvalue="JUnit.parallelTest" />
         <item itemvalue="JUnit.RegressionTestSuite" />
         <item itemvalue="JUnit.SmokeTestSuite" />
         <item itemvalue="JUnit.parameterTest" />
-        <item itemvalue="JUnit.parameterTest.testOptimusUsingParameters" />
-        <item itemvalue="JUnit.staticVsInstanceVariableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +185,8 @@
       <workItem from="1587483863847" duration="4367000" />
       <workItem from="1587555703575" duration="1219000" />
       <workItem from="1587580094007" duration="3443000" />
-      <workItem from="1587636023262" duration="4272000" />
+      <workItem from="1587636023262" duration="4304000" />
+      <workItem from="1587713781295" duration="6919000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -297,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587637675736</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="created suites and categories">
+      <created>1587666813947</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587666813947</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +325,8 @@
     <MESSAGE value="added DDT tests - finished checking, with excel input" />
     <MESSAGE value="added test for understanding static variables and classes" />
     <MESSAGE value="added parametrized tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added parametrized tests" />
+    <MESSAGE value="created suites and categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="created suites and categories" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="208" key="#Notifications" timestamp="1586855037712">
@@ -353,30 +357,30 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="695" y="65" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1586963494637" />
-    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587637674930">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587666813217">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587637674930" />
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587666813217" />
     <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1587409459382">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1587409459382" />
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1587642672565">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1587738027575">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587642672565" />
-    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1587642672565">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587738027575" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1587738027575">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587642672565" />
-    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1587642672564">
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587738027575" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1587738027575">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587642672564" />
-    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1587642672565">
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587738027575" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1587738027575">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587642672565" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587738027575" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1587116254652">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -397,10 +401,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1587409676923" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587637678549">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587666817213">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587637678549" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587666817213" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586862373628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
