@@ -17,13 +17,14 @@ public class SinCityTest extends InitialSetup {
     @Test
     public void testNewSin(){
         Sin smokeWeed = new Sin("I smoke weed" , "Bob Dylan" , "I like it!");
-        fillSinInformation("I smoke weed" , "Bob Dylan" , "I like it.");
+        smokeWeed.setAuthor("John Lennon");
+        fillSinInformation(smokeWeed);
     }
 
-    private void fillSinInformation(String title, String author, String message) {
-        driver.findElement(By.name("title")).sendKeys(title);
-        driver.findElement(By.name("author")).sendKeys(author);
-        driver.findElement(By.name("message")).sendKeys(message);
+    private void fillSinInformation(Sin sin) {
+        driver.findElement(By.name("title")).sendKeys(sin.getTitle());
+        driver.findElement(By.name("author")).sendKeys(sin.getAuthor());
+        driver.findElement(By.name("message")).sendKeys(sin.getMessage());
     }
 
 }
