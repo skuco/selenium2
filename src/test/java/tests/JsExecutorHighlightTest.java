@@ -7,11 +7,11 @@ import org.junit.experimental.categories.Category;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import tools.initialSetup;
+import tools.InitialSetup;
 
 import java.util.List;
 
-public class jsExecutorHighlightTest extends initialSetup {
+public class JsExecutorHighlightTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){

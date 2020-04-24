@@ -4,7 +4,7 @@ import categories.SmokeTest;
 import org.junit.*;
 import org.junit.experimental.categories.Category;
 
-public class staticVsInstanceVariableTest {
+public class StaticVsInstanceVariableTest {
     static int staticNumber;
     int instanceNumber = 0;
 

@@ -7,10 +7,10 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import tools.initialSetup;
+import tools.InitialSetup;
 
 
-public class jsExecutorBlurClickTest extends initialSetup {
+public class JsExecutorBlurClickTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){

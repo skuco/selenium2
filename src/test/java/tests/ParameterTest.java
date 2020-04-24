@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RunWith(Parameterized.class)
-public class parameterTest {
+public class ParameterTest {
     WebDriver driver;
     int number;
     boolean expectedPrime;
@@ -26,7 +26,7 @@ public class parameterTest {
         return Arrays.asList(new Object[][]{{1,true},{2,true},{6,false},{9,false},{482,false}});
     }
 
-    public parameterTest(int number , boolean expectedPrime) {
+    public ParameterTest(int number , boolean expectedPrime) {
         this.number = number;
         this.expectedPrime = expectedPrime;
     }

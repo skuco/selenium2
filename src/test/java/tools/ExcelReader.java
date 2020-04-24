@@ -7,10 +7,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class excelReader {
+public class ExcelReader {
         private Workbook excelData;
 
-    public excelReader(String excelPath) throws IOException {
+    public ExcelReader(String excelPath) throws IOException {
         FileInputStream fileInputStream = new FileInputStream(new File(excelPath));
         this.excelData = new XSSFWorkbook(fileInputStream);
     }

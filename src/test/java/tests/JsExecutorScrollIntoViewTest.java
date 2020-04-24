@@ -5,9 +5,9 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
-import tools.initialSetup;
+import tools.InitialSetup;
 
-public class jsExecutorScrollIntoViewTest extends initialSetup {
+public class JsExecutorScrollIntoViewTest extends InitialSetup {
 
 
 

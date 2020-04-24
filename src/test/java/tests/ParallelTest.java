@@ -13,7 +13,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 // Add it to the POM
 
 @RunWith(ConcurrentTestRunner.class)
-public class parallelTest {
+public class ParallelTest {
     public WebDriver driver;
 
     @Before

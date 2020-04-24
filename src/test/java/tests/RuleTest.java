@@ -4,9 +4,9 @@ import org.junit.*;
 import org.junit.rules.ExpectedException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import tools.initialSetup;
+import tools.InitialSetup;
 
-public class ruleTest extends initialSetup {
+public class RuleTest extends InitialSetup {
 
     @Rule
     public ExpectedException expectedException = ExpectedException.none();

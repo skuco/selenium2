@@ -5,9 +5,9 @@ import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import tools.initialSetup;
+import tools.InitialSetup;
 
-public class skipTest extends initialSetup {
+public class SkipTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){

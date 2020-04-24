@@ -3,9 +3,9 @@ package tests;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.JavascriptExecutor;
-import tools.initialSetup;
+import tools.InitialSetup;
 
-public class jsExecutorScrollByOffsetTest extends initialSetup {
+public class JsExecutorScrollByOffsetTest extends InitialSetup {
     JavascriptExecutor js;
 
     @Before

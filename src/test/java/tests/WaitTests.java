@@ -8,9 +8,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import tools.initialSetup;
+import tools.InitialSetup;
 
-public class waitTests extends initialSetup {
+public class WaitTests extends InitialSetup {
 
     private final String waitforit = "waitforit.php";
     private final String minions = "minions.php";
