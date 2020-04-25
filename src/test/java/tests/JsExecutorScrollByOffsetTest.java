@@ -10,8 +10,8 @@ public class JsExecutorScrollByOffsetTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "tabulka.php");
-        js =(JavascriptExecutor) driver;
+        getDriver().get(getBASE_URL() + "tabulka.php");
+        js =(JavascriptExecutor) getDriver();
     }
 
     @Test

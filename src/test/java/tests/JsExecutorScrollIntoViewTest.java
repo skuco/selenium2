@@ -13,14 +13,14 @@ public class JsExecutorScrollIntoViewTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "tabulka.php");
+        getDriver().get(getBASE_URL() + "tabulka.php");
     }
 
     @Test
     public void scrollTo(){
-        WebElement lastRow = driver.findElement(By.xpath("//table/tbody//tr[last()]"));
+        WebElement lastRow = getDriver().findElement(By.xpath("//table/tbody//tr[last()]"));
         System.out.println(lastRow.getText());
-        JavascriptExecutor js = (JavascriptExecutor) driver;
+        JavascriptExecutor js = (JavascriptExecutor) getDriver();
         js.executeScript("arguments[0].scrollIntoView()" , lastRow);
     }
 

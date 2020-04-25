@@ -14,22 +14,22 @@ public class JsExecutorBlurClickTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "waitforit.php");
+        getDriver().get(getBASE_URL() + "waitforit.php");
     }
 
     @Test
     public void jsExecutorBlur(){
-        WebElement textField = driver.findElement(By.id("waitForBlur"));
+        WebElement textField = getDriver().findElement(By.id("waitForBlur"));
         textField.sendKeys("test");
-        ((JavascriptExecutor)driver).executeScript("arguments[0].blur()" , textField);
-        new WebDriverWait(driver, 10)
+        ((JavascriptExecutor)getDriver()).executeScript("arguments[0].blur()" , textField);
+        new WebDriverWait(getDriver(), 10)
                 .until(ExpectedConditions.attributeToBe(textField , "value" , "blured!"));
 
     }
 
     @Test
     public void jsExecutorClick(){
-        WebElement buttonWFT = driver.findElement(By.id("startWaitForText"));
-        ((JavascriptExecutor)driver).executeScript("arguments[0].click()" , buttonWFT);
+        WebElement buttonWFT = getDriver().findElement(By.id("startWaitForText"));
+        ((JavascriptExecutor)getDriver()).executeScript("arguments[0].click()" , buttonWFT);
     }
 }

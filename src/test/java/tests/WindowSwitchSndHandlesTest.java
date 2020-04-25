@@ -13,29 +13,29 @@ public class WindowSwitchSndHandlesTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "inception.php");
+        getDriver().get(getBASE_URL() + "inception.php");
     }
 
     @Test
     public void popupWindow(){
-        String parentWindow = driver.getWindowHandle();
-        WebElement deeperButton = driver.findElement(By.id("letsGoDeeper"));
+        String parentWindow = getDriver().getWindowHandle();
+        WebElement deeperButton = getDriver().findElement(By.id("letsGoDeeper"));
         deeperButton.click();
         Assert.assertTrue(deeperButton.getAttribute("class").contains("disabled"));
-        new WebDriverWait(driver , 10)
+        new WebDriverWait(getDriver() , 10)
                 .until(ExpectedConditions.numberOfWindowsToBe(2));
 
         // Debug this code snippet with Debug mode and evaluate with Alt + F8 - to see all active handles
-        driver.getWindowHandles();
+        getDriver().getWindowHandles();
         // Lets iterate trough all active window handles
-        for (String windowHandle : driver.getWindowHandles()) {
-            driver.switchTo().window(windowHandle);
+        for (String windowHandle : getDriver().getWindowHandles()) {
+            getDriver().switchTo().window(windowHandle);
         }
-        driver.findElement(By.xpath("//input[1]")).sendKeys("test");
-        driver.close(); // close popup window
+        getDriver().findElement(By.xpath("//input[1]")).sendKeys("test");
+        getDriver().close(); // close popup window
 
         // and switch back to parent window
-        driver.switchTo().window(parentWindow);
+        getDriver().switchTo().window(parentWindow);
     }
 
 }

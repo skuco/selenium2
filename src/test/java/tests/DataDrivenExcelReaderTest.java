@@ -19,13 +19,13 @@ public class DataDrivenExcelReaderTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "primenumber.php");
+        getDriver().get(getBASE_URL() + "primenumber.php");
     }
 
     @Test
     public void primeNumber() throws IOException {
-        WebElement inputField = driver.findElement(By.xpath("//div//input[@type='number']"));
-        WebElement buttonPrime = driver.findElement(By.xpath("//div//button[contains(@class, btn-default)]"));
+        WebElement inputField = getDriver().findElement(By.xpath("//div//input[@type='number']"));
+        WebElement buttonPrime = getDriver().findElement(By.xpath("//div//button[contains(@class, btn-default)]"));
 
         ExcelReader primeExcelReader = new ExcelReader(TEST_DATA_PATH);
         Sheet sheet = primeExcelReader.getSheetByName(SHEET);
@@ -47,12 +47,12 @@ public class DataDrivenExcelReaderTest extends InitialSetup {
 
     private void checkResult(boolean expectedPrime) {
         if (expectedPrime) {
-            new WebDriverWait(driver, 10)
+            new WebDriverWait(getDriver(), 10)
                     .until(ExpectedConditions
                             .visibilityOfElementLocated(By
                                     .xpath("//div[text()='Optimus approves']")));
         }else{
-            new WebDriverWait(driver, 10)
+            new WebDriverWait(getDriver(), 10)
                     .until(ExpectedConditions
                             .visibilityOfElementLocated(By
                                     .xpath("//div[text()='Optimus is sad']")));

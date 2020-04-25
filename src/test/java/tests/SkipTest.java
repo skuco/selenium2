@@ -11,25 +11,25 @@ public class SkipTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "waitforit.php");
+        getDriver().get(getBASE_URL() + "waitforit.php");
     }
 
     @Test
     public void first_test(){
-        Assert.assertEquals("WAIT FOR IT !" , driver.findElement(By.xpath("//div//h1")).getText());
+        Assert.assertEquals("WAIT FOR IT !" , getDriver().findElement(By.xpath("//div//h1")).getText());
     }
     @Test
     public void second_test(){
-        Assert.assertEquals("WAIT FOR IT !" , driver.findElement(By.xpath("//div//h1")).getText());
+        Assert.assertEquals("WAIT FOR IT !" , getDriver().findElement(By.xpath("//div//h1")).getText());
     }
     @Test
     @Ignore
     public void third_test(){
-        Assert.assertEquals("WAIT FOR IT !" , driver.findElement(By.xpath("//div//h1")).getText());
+        Assert.assertEquals("WAIT FOR IT !" , getDriver().findElement(By.xpath("//div//h1")).getText());
     }
     @Test
     public void fourth_test(){
-        Assert.assertEquals("WAIT FOR IT !" , driver.findElement(By.xpath("//div//h1")).getText());
+        Assert.assertEquals("WAIT FOR IT !" , getDriver().findElement(By.xpath("//div//h1")).getText());
     }
 
 }

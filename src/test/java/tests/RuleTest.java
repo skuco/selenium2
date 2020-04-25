@@ -13,7 +13,7 @@ public class RuleTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "waitforit.php");
+        getDriver().get(getBASE_URL() + "waitforit.php");
     }
 
     @Test
@@ -21,7 +21,7 @@ public class RuleTest extends InitialSetup {
         expectedException.expect(ComparisonFailure.class);
         expectedException.expectMessage("Title is wrong!");
 
-        WebElement text = driver.findElement(By.xpath("//div/h1[text()='wait for it !']"));
+        WebElement text = getDriver().findElement(By.xpath("//div/h1[text()='wait for it !']"));
         Assert.assertEquals("Title is wrong!" , "wait for it !" , text.getText());
     }
 

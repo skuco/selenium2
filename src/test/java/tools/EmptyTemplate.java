@@ -7,7 +7,7 @@ public class EmptyTemplate extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "change_me.php");
+        getDriver().get(getBASE_URL() + "change_me.php");
     }
 
     @Test

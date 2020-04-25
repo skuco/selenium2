@@ -3,8 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="3cfa31dd-c562-4476-b636-2e753a2c15c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/Sin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/Sin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/DataDrivenExcelReaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/DataDrivenExcelReaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JsExecutorBlurClickTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JsExecutorBlurClickTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JsExecutorHighlightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JsExecutorHighlightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JsExecutorScrollByOffsetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JsExecutorScrollByOffsetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/JsExecutorScrollIntoViewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/JsExecutorScrollIntoViewTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/RuleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/RuleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SinCityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SinCityTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SkipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SkipTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WaitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WaitTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/WindowSwitchSndHandlesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/WindowSwitchSndHandlesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tools/EmptyTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/EmptyTemplate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tools/InitialSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tools/InitialSetup.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +197,7 @@
       <workItem from="1587555703575" duration="1219000" />
       <workItem from="1587580094007" duration="3443000" />
       <workItem from="1587636023262" duration="4304000" />
-      <workItem from="1587713781295" duration="15989000" />
+      <workItem from="1587713781295" duration="18374000" />
     </task>
     <task id="LOCAL-00001" summary="add initial files for selenium2 project">
       <created>1586541169695</created>
@@ -322,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587750506176</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="created getters and setters">
+      <created>1587753558986</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1587753558986</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +368,8 @@
     <MESSAGE value="added tests for @Rule and @Concurrent run" />
     <MESSAGE value="changed names of the classes according to standard naming convention" />
     <MESSAGE value="created object in object, method, constructor, etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="created object in object, method, constructor, etc." />
+    <MESSAGE value="created getters and setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="created getters and setters" />
   </component>
   <component name="WindowStateProjectService">
     <state x="526" y="208" key="#Notifications" timestamp="1586855037712">
@@ -366,10 +384,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.689@0.0.1280.689" timestamp="1587408399221" />
-    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1587753428389">
+    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1587836674963">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1587753428389" />
+    <state x="772" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1587836674963" />
     <state x="371" y="121" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1587642390099">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -386,30 +404,30 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="602" y="91" key="#xdebugger.evaluate/0.0.1280.689@0.0.1280.689" timestamp="1587748167245" />
-    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587750505602">
+    <state x="312" y="0" key="CommitChangelistDialog2" timestamp="1587753558359">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587750505602" />
+    <state x="312" y="0" key="CommitChangelistDialog2/0.0.1280.689@0.0.1280.689" timestamp="1587753558359" />
     <state x="421" y="100" key="FileChooserDialogImpl" timestamp="1587409459382">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="421" y="100" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1587409459382" />
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1587750420941">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom" timestamp="1587753574232">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587750420941" />
-    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1587750420940">
+    <state width="1237" height="180" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1587753574232" />
+    <state width="1237" height="180" key="GridCell.Tab.0.center" timestamp="1587753574231">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587750420940" />
-    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1587750420940">
+    <state width="1237" height="180" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1587753574231" />
+    <state width="1237" height="180" key="GridCell.Tab.0.left" timestamp="1587753574231">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587750420940" />
-    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1587750420940">
+    <state width="1237" height="180" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1587753574231" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right" timestamp="1587753574232">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587750420940" />
+    <state width="1237" height="180" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1587753574232" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1587748184787">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -430,10 +448,10 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.689@0.0.1280.689" timestamp="1587409676923" />
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587750508121">
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2" timestamp="1587753560632">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
-    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587750508121" />
+    <state x="233" y="78" key="Vcs.Push.Dialog.v2/0.0.1280.689@0.0.1280.689" timestamp="1587753560632" />
     <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586862373628">
       <screen x="0" y="0" width="1280" height="689" />
     </state>
@@ -446,5 +464,9 @@
       <screen x="0" y="0" width="1280" height="689" />
     </state>
     <state x="297" y="153" key="run.anything.popup/0.0.1280.689@0.0.1280.689" timestamp="1587487653851" />
+    <state x="297" y="-1" width="670" height="676" key="search.everywhere.popup" timestamp="1587836665237">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state x="297" y="-1" width="670" height="676" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1587836665237" />
   </component>
 </project>

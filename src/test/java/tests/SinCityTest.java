@@ -11,7 +11,7 @@ public class SinCityTest extends InitialSetup {
 
     @Before
     public void openBaseUrl(){
-        driver.get(getBASE_URL() + "sincity.php");
+        getDriver().get(getBASE_URL() + "sincity.php");
     }
 
     @Test
@@ -22,9 +22,9 @@ public class SinCityTest extends InitialSetup {
     }
 
     private void fillSinInformation(Sin sin) {
-        driver.findElement(By.name("title")).sendKeys(sin.getTitle());
-        driver.findElement(By.name("author")).sendKeys(sin.getAuthor());
-        driver.findElement(By.name("message")).sendKeys(sin.getMessage());
+        getDriver().findElement(By.name("title")).sendKeys(sin.getTitle());
+        getDriver().findElement(By.name("author")).sendKeys(sin.getAuthor());
+        getDriver().findElement(By.name("message")).sendKeys(sin.getMessage());
     }
 
 }

@@ -6,7 +6,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class InitialSetup {
-    public WebDriver driver;
+
+    private WebDriver driver;
+    public WebDriver getDriver() {
+        return driver;
+    }
+
     private final String BASE_URL = "http://localhost/";
     public String getBASE_URL() {
         return BASE_URL;
